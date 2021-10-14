@@ -6,7 +6,7 @@
         "topics": "news",
         "connection.uri": " mongodb://mongo:27017/",
         "database": "capstone",
-        "collection": "news-rss",
+        "collection": "newsRss",
         "key.converter": "org.apache.kafka.connect.storage.StringConverter",
         "value.converter": "org.apache.kafka.connect.json.JsonConverter",
         "value.converter.schemas.enable": "false"
